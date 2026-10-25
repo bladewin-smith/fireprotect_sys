@@ -9,8 +9,8 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-from fire_rgbd.orbbec import OrbbecRGBDCamera, RGBDFrame
-from fire_rgbd.visualize import colorize_depth
+from ..src.fire_rgbd.orbbec import OrbbecRGBDCamera, RGBDFrame
+from ..src.fire_rgbd.visualize import colorize_depth
 
 
 def parse_args() -> argparse.Namespace:
